@@ -20,6 +20,7 @@ select($$$,title,foot).type('type9').pad(6).pos(x,y,number)
 
 ```
 ```
+メッセージボックスは一つで足りる。
 center select
 +-----------------------------+
 |select one              01/02|
@@ -28,4 +29,10 @@ center select
 | no                          |
 |:                            |
 +-----------------------------+
+
+slot>
+mes>
+yon>
+sel>
+
 ```
