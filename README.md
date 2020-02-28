@@ -1,8 +1,10 @@
 # select
 ```
 
-select(ary,'type9')
-
+select($$$,title,foot).type('type9').pad(6).pos(x,y,number)
+ .key()
+ .draw(strflg)
+ .get(strflg)
 
 +:FIG--------------+
 |*sys0 *sys1 *sys2 |
@@ -10,5 +12,10 @@ select(ary,'type9')
 | sys6  sys7  sys8 |
 +:help 15ring------+
 
++:FIG--------------+
+|*sys0             |
+|                  |
+|                  |
++:help 15ring------+
 
 ```
