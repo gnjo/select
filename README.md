@@ -30,9 +30,9 @@ center select
 |:                            |
 +-----------------------------+
 
-slot>
-mes>
-yon>
-sel>
+slot>{$data},{$title}
+mes>{$data},{$name}
+yon>{$title},y //y is first select
+sel>{$data},{$title},n //n is first select
 
 ```
