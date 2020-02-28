@@ -44,3 +44,25 @@ yon>{$title},y //y is first select
 sel>{$data},{$title},n //n is first select
 len=30;
 ```
+
+```
+let cursor='*',capture='*'
+superselect(data,cursor,capture).key(^v<>);
+.set(x,y,value)
+let data=`
+*あ *い *う *え *お
+*あ *い *う *え *お
+*あ *い *う *え *お
+*あ *い *う *え *お
+*あ *い *う *え *お
+`
+
+
+```
+
+
+
+
+
+
+
