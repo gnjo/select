@@ -10,12 +10,11 @@ select($$$,title,foot).type('type9').pad(6).pos(x,y,number)
 |*sys0 *sys1 *sys2 |
 | sys3  sys4  sys5 |
 | sys6  sys7  sys8 |
-+:help 15ring------+
++:help pad*3ring---+
 
 +:FIG--------------+
 |*sys0             |
 |                  |
 |                  |
-+:help 15ring------+
-
++:help pad*3ring---+
 ```
