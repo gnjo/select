@@ -20,6 +20,14 @@ select($$$,title,foot).type('type9').pad(6).pos(x,y,number)
 
 ```
 ```
+32x24
+枠を含めると30x20しか入らない。
+//width 30rings border2
+head_1
+body_22 line20 border2
+foot_1
+```
+```
 メッセージボックスは一つで足りる。
 center select
 +-----------------------------+
@@ -34,12 +42,5 @@ slot>{$data},{$title}
 mes>{$data},{$name}
 yon>{$title},y //y is first select
 sel>{$data},{$title},n //n is first select
-
-
-32x24
-枠を含めると30x20しか入らない。
-//width 30rings border2
-head_1
-body_22 line20 border2
-foot_1
+len=30;
 ```
