@@ -17,4 +17,15 @@ select($$$,title,foot).type('type9').pad(6).pos(x,y,number)
 |                  |
 |                  |
 +:help pad*3ring---+
+
+```
+```
+center select
++-----------------------------+
+|select one              01/02|
+|                             |
+|[yes                        ]|
+| no                          |
+|:                            |
++-----------------------------+
 ```
