@@ -42,20 +42,20 @@ slot>{$data},{$title}
 mes>{$data},{$name}
 yon>{$title},y //y is first select
 sel>{$data},{$title},n //n is first select
+sel3>{$data},{$title},n,cn
 len=30;
 ```
 
 ```
-let cursor='*',capture='*'
-superselect(data,cursor,capture).key(^v<>);
-.set(x,y,value)
-let data=`
-*あ *い *う *え *お
-*あ *い *う *え *お
-*あ *い *う *え *お
-*あ *い *う *え *お
-*あ *い *う *え *お
-`
+mes(type,w,pad).data(body,head,foot).pos(n,cn)
+.body
+.head
+.foot
+.page
+.n
+.cn
+.value
+.v[3]
 
 
 ```
