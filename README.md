@@ -48,7 +48,7 @@ len=30;
 
 ```
 //type
-//slot mes yon sel sel3
+//slot mes mes1 yon sel sel3
 mes(type,w,pad,cursor).data(body,head,foot).pos(n,cn)
 .body
 .head
