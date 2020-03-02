@@ -47,7 +47,9 @@ len=30;
 ```
 
 ```
-mes(type,w,pad).data(body,head,foot).pos(n,cn)
+//type
+//slot mes yon sel sel3
+mes(type,w,pad,cursor).data(body,head,foot).pos(n,cn)
 .body
 .head
 .foot
